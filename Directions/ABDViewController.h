@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
 @interface ABDViewController : UIViewController
+
+@property (nonatomic, strong) IBOutlet MKMapView *mapView;
+@property (nonatomic, strong) IBOutlet UITextField *textField;
+
+- (IBAction)textChanged:(id)sender;
+
 
 @end
