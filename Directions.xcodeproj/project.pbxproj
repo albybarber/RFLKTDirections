@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69630E6E18BE62150033C293 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69630E6D18BE62150033C293 /* CoreBluetooth.framework */; };
+		69630E7018BE621F0033C293 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69630E6F18BE621F0033C293 /* ExternalAccessory.framework */; };
+		69630E7218BE62380033C293 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69630E7118BE62380033C293 /* libstdc++.6.dylib */; };
+		6998741118CF76D900C113F9 /* ABDSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6998741018CF76D900C113F9 /* ABDSettingsController.m */; };
+		6998741618D09C9D00C113F9 /* WFConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6998741518D09C9D00C113F9 /* WFConnector.framework */; };
+		6998741718D09C9D00C113F9 /* WFConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6998741518D09C9D00C113F9 /* WFConnector.framework */; };
 		69B7A60618BCCB4800F12EC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B7A60518BCCB4800F12EC8 /* Foundation.framework */; };
 		69B7A60818BCCB4800F12EC8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B7A60718BCCB4800F12EC8 /* CoreGraphics.framework */; };
 		69B7A60A18BCCB4800F12EC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B7A60918BCCB4800F12EC8 /* UIKit.framework */; };
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69630E6D18BE62150033C293 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		69630E6F18BE621F0033C293 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		69630E7118BE62380033C293 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		6998740F18CF76D900C113F9 /* ABDSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABDSettingsController.h; sourceTree = "<group>"; };
+		6998741018CF76D900C113F9 /* ABDSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABDSettingsController.m; sourceTree = "<group>"; };
+		6998741518D09C9D00C113F9 /* WFConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WFConnector.framework; sourceTree = "<group>"; };
 		69B7A60218BCCB4800F12EC8 /* Directions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Directions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B7A60518BCCB4800F12EC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		69B7A60718BCCB4800F12EC8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,6 +74,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69630E7218BE62380033C293 /* libstdc++.6.dylib in Frameworks */,
+				6998741618D09C9D00C113F9 /* WFConnector.framework in Frameworks */,
+				69630E7018BE621F0033C293 /* ExternalAccessory.framework in Frameworks */,
+				69630E6E18BE62150033C293 /* CoreBluetooth.framework in Frameworks */,
 				69B7A63B18BCD10000F12EC8 /* MapKit.framework in Frameworks */,
 				69B7A60818BCCB4800F12EC8 /* CoreGraphics.framework in Frameworks */,
 				69B7A60A18BCCB4800F12EC8 /* UIKit.framework in Frameworks */,
@@ -74,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69B7A62518BCCB4800F12EC8 /* XCTest.framework in Frameworks */,
+				6998741718D09C9D00C113F9 /* WFConnector.framework in Frameworks */,
 				69B7A62718BCCB4800F12EC8 /* UIKit.framework in Frameworks */,
 				69B7A62618BCCB4800F12EC8 /* Foundation.framework in Frameworks */,
 			);
@@ -104,6 +121,10 @@
 		69B7A60418BCCB4800F12EC8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				69630E7118BE62380033C293 /* libstdc++.6.dylib */,
+				6998741518D09C9D00C113F9 /* WFConnector.framework */,
+				69630E6F18BE621F0033C293 /* ExternalAccessory.framework */,
+				69630E6D18BE62150033C293 /* CoreBluetooth.framework */,
 				69B7A63A18BCD10000F12EC8 /* MapKit.framework */,
 				69B7A60518BCCB4800F12EC8 /* Foundation.framework */,
 				69B7A60718BCCB4800F12EC8 /* CoreGraphics.framework */,
@@ -123,6 +144,8 @@
 				69B7A61B18BCCB4800F12EC8 /* ABDViewController.m */,
 				69B7A61D18BCCB4800F12EC8 /* Images.xcassets */,
 				69B7A60C18BCCB4800F12EC8 /* Supporting Files */,
+				6998740F18CF76D900C113F9 /* ABDSettingsController.h */,
+				6998741018CF76D900C113F9 /* ABDSettingsController.m */,
 			);
 			path = Directions;
 			sourceTree = "<group>";
@@ -201,7 +224,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = ABD;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Alby Barber";
 				TargetAttributes = {
 					69B7A62218BCCB4800F12EC8 = {
@@ -256,6 +279,7 @@
 			files = (
 				69B7A61618BCCB4800F12EC8 /* ABDAppDelegate.m in Sources */,
 				69B7A61C18BCCB4800F12EC8 /* ABDViewController.m in Sources */,
+				6998741118CF76D900C113F9 /* ABDSettingsController.m in Sources */,
 				69B7A61218BCCB4800F12EC8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,7 +334,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -323,7 +346,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Albert Barber (ZQ5QYKGU87)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Albert Barber (ZQ5QYKGU87)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -340,7 +364,11 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lstdc++",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -349,7 +377,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -362,7 +389,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -373,6 +401,10 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lstdc++",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -383,12 +415,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/alby/Desktop/Directions/WahooFitnessSDK/dependencies/mac_osx,
+					"$(PROJECT_DIR)/WahooFitnessSDK/dependencies",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Directions/Directions-Prefix.pch";
 				INFOPLIST_FILE = "Directions/Directions-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -398,12 +437,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/alby/Desktop/Directions/WahooFitnessSDK/dependencies/mac_osx,
+					"$(PROJECT_DIR)/WahooFitnessSDK/dependencies",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Directions/Directions-Prefix.pch";
 				INFOPLIST_FILE = "Directions/Directions-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -411,12 +457,13 @@
 		69B7A63818BCCB4800F12EC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Directions.app/Directions";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/WahooFitnessSDK/dependencies",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Directions/Directions-Prefix.pch";
@@ -434,12 +481,13 @@
 		69B7A63918BCCB4800F12EC8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Directions.app/Directions";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/WahooFitnessSDK/dependencies",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Directions/Directions-Prefix.pch";
@@ -469,6 +517,7 @@
 				69B7A63618BCCB4800F12EC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69B7A63718BCCB4800F12EC8 /* Build configuration list for PBXNativeTarget "DirectionsTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +526,7 @@
 				69B7A63918BCCB4800F12EC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

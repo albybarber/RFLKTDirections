@@ -21,6 +21,7 @@
     
     [self.mapView setShowsUserLocation:YES];
     [self.mapView setUserTrackingMode:YES animated:YES];
+    
 }
 
 // UITextField delegate method
@@ -42,6 +43,7 @@
                      if (placemarks.count > 0) {
                          CLPlacemark *place = placemarks[0];
                          NSLog(@"place dict is %@", place.addressDictionary);
+                         [self.mapView removeAnnotations:self.mapView.annotations];
 
                          // put a pin on the map
                          MKPointAnnotation *annotation = [[MKPointAnnotation alloc] init];
@@ -98,7 +100,7 @@
                 MKPointAnnotation *annotation = [[MKPointAnnotation alloc] init];
                 annotation.coordinate = MKCoordinateForMapPoint(thisPoint);
                 annotation.title = newStep;
-                [self.mapView addAnnotation:annotation];
+//                [self.mapView addAnnotation:annotation];
             }
         }
         
